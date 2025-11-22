@@ -80,6 +80,7 @@ The platform focuses on:
   - **Leave Types** — Admins can create, edit, enable/disable, and delete leave types for better organizational structuring.
   - **My Leaves (History)** — Employees can track their leave status (Pending, Approved, Rejected, Cancelled) with applied dates and remarks.
   - **Leave Entitlements** — Admins can define or assign leave balances per employee or role, view entitlements, and manage limits with inline warnings.
+  - **Leave Balance** — Employees can view their total allocated, used, and remaining leave days, categorized by leave type for full transparency.
 - **Onboarding Forms** — Fully validated forms for employee onboarding with file upload support.
 - **Dashboard Analytics** — Stats for onboarding submissions, members, and pending invites with interactive charts.
 - **Advanced Tables** — Sort, filter, paginate, update columns visibility, and view details seamlessly.
@@ -102,6 +103,7 @@ Instead of listing only pages, Formint focuses on **user-centric workflows** acr
   - Leave Approvals
   - Leave Entitlements
   - My Leaves (History)
+  - Leave Balance
 - **Data Table & Drawers** – Unified interface for CRUD operations and record details with pagination, filtering, sorting, and detailed viewing of submissions.
 
 ---
