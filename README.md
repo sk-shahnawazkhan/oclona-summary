@@ -1,7 +1,11 @@
-# 🛠️ Formint — Multi-Tenant HR SaaS Platform
+# 🛠️ Oclona - Modern HR Platform for Teams
 
-> Formint is a modern HR SaaS platform built with React.js, Tailwind CSS, shadcn/ui, Supabase, etc.
+> Oclona is a modern HR SaaS platform built with React.js, Tailwind CSS, shadcn/ui, Supabase, etc.
 > It streamlines employee onboarding, recruitment, leave management, and team operations while providing real-time validations, dynamic forms, and secure data handling for modern HR workflows.
+
+## Project History
+
+**Note:** This project was previously named "Formint" and was rebranded to "Oclona" in January 2026. If you encounter any references to "formint" in app content, logo or url, they refer to this same project.
 
 ## 🚀 Live Demo
 
@@ -36,7 +40,7 @@
 
 ## 📝 Overview
 
-**Formint** is a multi-tenant HR SaaS solution designed for modern companies to manage their HR operations, including employee onboarding, leave management and team collaboration, while ensuring **secure and isolated tenant environments**.
+**Oclona** is a multi-tenant HR SaaS solution designed for modern companies to manage their HR operations, including employee onboarding, leave management and team collaboration, while ensuring **secure and isolated tenant environments**.
 
 Each company gets its `own secure tenant environment`, enabling `Admins, Managers, Recruiters, and Employees` to manage their workforce efficiently.
 
@@ -92,7 +96,7 @@ The platform focuses on:
 
 ## 🖼️ App Experience & UI
 
-Instead of listing only pages, Formint focuses on **user-centric workflows** across HR functions:
+Instead of listing only pages, Oclona focuses on **user-centric workflows** across HR functions:
 
 - **Dashboard** – Real-time overview of Onboarding and leave stats, charts, and quick access to recent activity including **View All** & **View Details**.
 - **Team Management** – Centralized member management and invite handling.
@@ -136,7 +140,6 @@ Instead of listing only pages, Formint focuses on **user-centric workflows** acr
 
 1. **Create Account** – An admin first signs up with email & password or a magic link.
 2. **Setup Company** – After verifying email, the admin completes company onboarding:
-
    - **Company Name** (unique slug auto-generated)
    - **Your Full Name** (optional; defaults to email prefix)
 
@@ -165,7 +168,7 @@ Once complete, a tenant row is created in the `tenants` table and the admin’s 
 ---
 
 **Step by step flow**:  
-`Admin Signup` → `Verify` → `Company Setup` → `Invite Member` → `Accept Invite` → `Member Signup` → `Login & Use Formint`
+`Admin Signup` → `Verify` → `Company Setup` → `Invite Member` → `Accept Invite` → `Member Signup` → `Login & Use Oclona`
 
 ---
 
@@ -257,7 +260,7 @@ Email: 1990.shahnawaz@gmail.com
 
 ## 📄 License
 
-This repository contains a project summary for Formint SaaS application. The content is shared solely for demonstration and portfolio purposes.
+This repository contains a project summary for Oclona SaaS application. The content is shared solely for demonstration and portfolio purposes.
 
 Its is **not intended for reuse, redistribution, or commercial use**. Because copying or using this documentation elsewhere may not be appropriate or meaningful.
 
