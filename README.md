@@ -1,4 +1,4 @@
-# Oclona — Multi-Tenant HR SaaS (System Design Summary)
+# Oclona – Multi-Tenant HR SaaS (System Design Summary)
 
 Oclona is a multi-tenant HR SaaS system designed to handle tenant-scoped onboarding, team management, and workflow-driven operations with strict data isolation.
 
@@ -18,16 +18,16 @@ Public demo will be added once the current production deployment is stabilized.
 
 ## Table of Contents
 
-1. [Problem Space](#-problem-space)
-2. [System Overview](#-system-overview)
+1. [Problem Space](#problem-space)
+2. [System Overview](#system-overview)
 3. [Architecture Overview](#-architecture-overview)
-4. [Core Engineering Challenges](#-core-engineering-challenges)
+4. [Core Engineering Challenges](#core-engineering-challenges)
 5. [Key Design Decisions](#-key-design-decisions)
-6. [Important Flows](#-important-flows)
+6. [Important Flows](#important-flows)
 7. [Security & Data Isolation](#-security--data-isolation)
-8. [Trade-offs & Limitations](#-trade-offs--limitations)
+8. [Trade-offs & Limitations](#trade-offs--limitations)
 9. [Future Improvements](#-future-improvements)
-10. [Project History](#-project-history)
+10. [Project History](#project-history)
 
 ---
 
@@ -69,7 +69,7 @@ Oclona is structured to address these constraints in a predictable and scalable 
 
 ---
 
-## ⚙️ Core Engineering Challenges
+## Core Engineering Challenges
 
 ### Tenant Isolation Without Client Trust
 
@@ -171,7 +171,7 @@ Certain actions require elevated permissions (e.g., sending invites).
 
 ### Multi-Tenant Onboarding
 
-Admin Signup → Email Verification → Company Setup → Invite Member → Accept Invite → Member Signup → Tenant Linking → Access System
+`Admin Signup` → `Email Verification` → `Company Setup` → `Invite Member` → `Accept Invite` → `Member Signup` → `Tenant Linking` → `Access System`
 
 **Why this matters:**
 This flow ensures users can only enter a tenant through controlled invites, preventing unauthorized access and maintaining strict tenant boundaries.
@@ -259,7 +259,7 @@ The primary implementation repository is private.
 ## Author
 
 [Shahnawaz Khan](https://shahnawazkhan.vercel.app/)  
-Senior Frontend Developer
+Senior Frontend Developer  
 Focused on building scalable SaaS products and real-world system design
 
 ---
