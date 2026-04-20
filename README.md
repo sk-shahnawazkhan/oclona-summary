@@ -88,11 +88,14 @@ Users must never access data outside their tenant scope.
 
 Users should be able to join a tenant securely without exposing tenant identifiers.
 
+**Impact:** A weak invite system can allow unauthorized users to join tenants or expose internal tenant identifiers, breaking core access boundaries.
+
 **Approach:**
 
 - Token-based invite system
 - Email-driven onboarding
 - Tenant association handled during controlled signup
+- Invite lifecycle tracking (Pending, Accepted, Expired)
 
 ---
 
@@ -258,14 +261,13 @@ The primary implementation repository is private.
 
 ## Author
 
-[Shahnawaz Khan](https://shahnawazkhan.vercel.app/)  
-Senior Frontend Developer  
-Focused on building scalable SaaS products and real-world system design
+[Shahnawaz Khan](https://shahnawazkhan.vercel.app/), Senior Frontend Engineer  
+Focused on building scalable SaaS products and system design
 
 ---
 
 ## License
 
-This repository is for **demonstration and evaluation purposes only**.
+This repository is provided for **demonstration and evaluation purposes only**.
 
-Not intended for **reuse, redistribution, or commercial use**. Because copying or using this documentation elsewhere may not be appropriate or meaningful.
+**Reuse, redistribution, or commercial** use is not permitted.
