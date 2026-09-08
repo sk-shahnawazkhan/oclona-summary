@@ -41,7 +41,7 @@ The goal is to establish a **production-oriented SaaS foundation** capable of su
 | -------------- | ------------------------------------- |
 | Product        | B2B HR SaaS                           |
 | Architecture   | Multi-tenant                          |
-| Primary focus  | Frontend / Product Engineering        |
+| Primary focus  | Frontend & Product Engineering        |
 | Authentication | Supabase Auth                         |
 | Database       | PostgreSQL                            |
 | Security       | RLS + RBAC                            |
@@ -122,7 +122,7 @@ Where required, I worked with:
 - Audit fields
 - Tenant isolation
 
-The engineering focus remained **frontend/product engineering**, while extending into the backend when the product workflow or security model required it.
+The engineering focus remained **frontend & product engineering**, while extending into the backend when the product workflow or security model required it.
 
 ### Technology stack
 

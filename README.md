@@ -362,7 +362,7 @@ Documentation may evolve as the product changes. For current product behavior, r
 
 ## Author
 
-[Shahnawaz Khan](https://shahnawazkhan.vercel.app/), Senior Frontend/Product Engineer  
+[Shahnawaz Khan](https://shahnawazkhan.vercel.app/), Senior Frontend Engineer  
 Focused on building scalable SaaS products and reliable product experiences.
 
 ---
